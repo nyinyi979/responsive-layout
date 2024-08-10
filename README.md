@@ -1,0 +1,1 @@
+-- Pure CSS and Javascript used to create a beautiful and responsive gallery website template

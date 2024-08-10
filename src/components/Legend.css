@@ -1,0 +1,131 @@
+.legend{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+    align-items: center;
+}
+.lg-img{
+    width: 100%;
+    height: 300px;
+    z-index: 0;
+    position: relative;
+    box-shadow: 4px 0 30px 0 grey;
+}
+.lg-text{
+    width: 80%;
+    gap: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    color: white;
+}
+.lg-text p:first-child{
+    padding: 20px 0;
+    border-bottom: 1px solid white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.lg-p{gap:20px}
+.lg-p span:first-child{
+    font-weight: 600;
+    font-size: 18px;
+}
+.lg-p button{
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: rgb(234, 92, 130);
+    color: white;
+    transition: background-color .5s ease-in-out;
+}
+.lg-p button:hover{
+    background-color: rgb(171, 56, 87);
+}
+.carousel{
+    width: 300px;
+    margin: 20px auto;
+}
+.news-heading{
+    padding: 30px 0;
+    border-bottom: 1px solid gray;
+}
+.news-heading > div{margin-left: auto;gap:10px}
+.news-heading p{
+    font-weight: bold;
+    font-size: 20px;
+}
+.news-btn{
+    padding: 0 10px;
+    color: black;
+    transform: scaleY(1.5);
+}
+.news-btn:disabled{
+    color: darkgray;
+}
+.slide{gap:20px;padding:20px 0;}
+.new{
+    gap: 10px;
+}
+.new .flex-col{gap:10px}
+.new .category{
+    font-weight: 500;
+    color: red;
+}
+.title{
+    font-weight: 700;
+    font-size: 14px;
+}
+.text, .ago{
+    font-size: 12px;
+    color: gray;
+}
+.ago{
+    align-items: center;
+    font-style: italic;
+    gap: 5px;
+}
+.ago svg{
+    width: 15px;
+    height: 15px;
+}
+
+@media only screen and (min-width:768px) {
+    .legend{
+        flex-direction: row;
+        gap: 30px;
+    }
+    .lg-img{
+        width: 500px;
+        height: 500px;
+    }
+    .lg-text{
+        width: 300px;
+    }
+    .carousel{
+        width: 250px;
+    }
+}
+@media only screen and (min-width:1000px) {
+    .lg-img{
+        width: 750px;
+    }
+}
+@media only screen and (min-width:1200px) {
+    .legend{
+        flex-direction: row;
+        gap: 50px;
+    }
+    .lg-img{
+        width: 850px;
+        height: 500px;
+    }
+    .lg-text{
+        width: 300px;
+    }
+    .carousel{
+        width: 250px;
+    }
+}
