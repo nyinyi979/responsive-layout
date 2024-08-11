@@ -1,36 +1,39 @@
-* { box-sizing: border-box;}
+* {
+  box-sizing: border-box;
+}
 @font-face {
-    font-family: "Open Sans";
-    src: url("/OpenSans-VariableFont_wdth,wght.ttf");
+  font-family: "Open Sans";
+  src: url("/OpenSans-VariableFont_wdth,wght.ttf");
 }
-html,body{
-    margin: 0px;
-    padding: 0px;
-    width: 100%;
-    height: 100%;
-    overflow-x: hidden;
-    background-color: rgb(241, 241, 241);
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  background-color: rgb(241, 241, 241);
 }
-p{
-    padding: 0;
-    margin: 0;
+p {
+  padding: 0;
+  margin: 0;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-input{
-    border: none;
-    outline: none;
-    background-color: transparent;
+input {
+  border: none;
+  outline: none;
+  background-color: transparent;
 }
-button{
-    outline: none;
-    border: none;
-    cursor: pointer;
-    background-color: transparent;
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
 }
-.time svg{
-    width: 15px;
-    height: 15px;
-    margin-top: 2px;
+.time svg {
+  width: 15px;
+  height: 15px;
+  margin-top: 2px;
 }

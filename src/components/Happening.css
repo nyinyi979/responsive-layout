@@ -18,7 +18,9 @@
 }
 .large-item img {
   height: 200px;
+  -o-object-position: center;
   object-position: center;
+  -o-object-fit: cover;
   object-fit: cover;
   transition: transform 0.4s ease-in-out;
 }
@@ -60,64 +62,66 @@
   width: 100%;
   height: 200px;
   border-radius: 5px;
+  -o-object-position: center;
   object-position: center;
+  -o-object-fit: cover;
   object-fit: cover;
 }
 @media screen and (min-width: 500px) {
-  .large-item img{
+  .large-item img {
     height: 300px;
   }
-  .small-item img{
+  .small-item img {
     height: 300px;
   }
 }
 @media screen and (min-width: 800px) {
-  .small{
+  .small {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
   }
-  .small-item img{
+  .small-item img {
     height: 200px !important;
   }
 }
-@media only screen and (min-width:1200px) {
-  .happening{
+@media only screen and (min-width: 1200px) {
+  .happening {
     flex-direction: row;
   }
-  .large{
-    width: 74%
+  .large {
+    width: 74%;
   }
-  .small{
+  .small {
     width: 33%;
     display: flex;
     flex-direction: column;
   }
-  .large-item img{
+  .large-item img {
     height: 400px;
   }
-  .large-item .cat{
+  .large-item .cat {
     display: block;
     position: absolute;
   }
-  .l-text .title{
+  .l-text .title {
     font-size: 20px;
     font-weight: 700;
   }
   .l-text .text {
     display: block;
   }
-  .l-text .ago .by{
+  .l-text .ago .by {
     display: none;
   }
-  .large-item .l-text{
+  .large-item .l-text {
     position: absolute;
     color: white;
   }
   .large-item:hover img {
     transform: scale(1.13);
   }
-  .small-item{
+  .small-item {
     padding: 0 10px 10px 10px;
   }
 }

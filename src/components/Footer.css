@@ -49,6 +49,18 @@
 .input input:focus{
     border: 1px solid white;
 }
+.input input::-webkit-input-placeholder{
+    color: rgb(193, 193, 193);
+}
+.input input::-moz-placeholder{
+    color: rgb(193, 193, 193);
+}
+.input input:-ms-input-placeholder{
+    color: rgb(193, 193, 193);
+}
+.input input::-ms-input-placeholder{
+    color: rgb(193, 193, 193);
+}
 .input input::placeholder{
     color: rgb(193, 193, 193);
 }
